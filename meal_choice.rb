@@ -4,7 +4,22 @@ def snacks(food="Cheetos")
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
+def breakfast(cereal="frosted flakes")
+  "The first thing that I eat is #{cereal}!"
+end
 
+def lunch(bread="grilled cheese")
+  "For lunch I eat #{bread}!"
+end
+
+def dinner(fish="salmon")
+  "the last meal of the day contains #{fish}!"
+end
+
+  snacks
+  breakfast
+  lunch
+  dinner
 
 
 
