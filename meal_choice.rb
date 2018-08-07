@@ -21,3 +21,30 @@ puts snacks("Swedish fish")
 # Call your methods without any arguments here
 puts snacks
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
+
+
+
+def breakfast (breakfast_food)
+  puts "Morning is the best time for #{breakfast_food}!"
+end
+breakfast("yogurt")
+def breakfast ()
+  puts "Morning is the best time for scrambled eggs!"
+end
+breakfast()
+def lunch (lunch_food)
+  puts "The Afternoon is the best time for #{lunch_food}!"
+end
+lunch ("sandwiches")
+def lunch ()
+  puts "The Afternoon is the best time for grilled cheese!"
+end
+lunch()
+def dinner (dinner_food)
+  puts "Nightime is the best time for #{dinner_food}!"
+end
+dinner ("pasta")
+def dinner ()
+  puts "Nightime is the best time for salmon!"
+end
+dinner()
